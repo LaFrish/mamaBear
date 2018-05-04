@@ -7,6 +7,15 @@ $backgroundImage4: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 $backgroundImage5: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default5.jpg);
 $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default6.jpg); */
 
+@font-face {
+    font-family: 'mahoni_free_personal_useRg';
+    src: url('mahoni_free_personal_use-webfont.woff2') format('woff2'),
+         url('mahoni_free_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+// ****IMAGES****
 $backgroundImage1: url( );
 $backgroundImage2: url( );
 $backgroundImage3: url( );
@@ -16,12 +25,31 @@ $backgroundImage6: url( );
 $contact1: url( );
 $iconSheet: url( );
 
-
+// ****COLORS****
 $darkBlue: #0a4873;
 $darkerBlue: #052135;
+$lightBlue: #c9e8e5;
+// $darkerLightBlue: #c9e8e5;
+$mint: #aee1c550;
+$darkMint: #aee1c5;
+$lavender: #d4c9f850;
+$darkLavender: #d4c9f8;
+$yellow: #fff68250;
+$darkYellow: #fff682;
+$peach: #fc9f8d50;
+$darkPeach:#fc9f8d;
+$pink: #fdccc450;
+$darkPink: #fdccc4;
+
 $navHeight: 370px;
 
+
+// ****FONTS****
+$scriptFont: 'mahoni_free_personal_useRg', sans-serif;
+
+
 @import "contentPage0.scss";
+
 
 #mainHolder {
 
@@ -413,8 +441,6 @@ $navHeight: 370px;
 
 
       }
-
-
 
     }
   }
