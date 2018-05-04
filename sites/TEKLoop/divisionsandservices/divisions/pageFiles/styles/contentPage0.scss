@@ -1,0 +1,409 @@
+/* testing */
+#mainHolder {
+
+
+  * {
+        html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    	display: block;
+    }
+    body {
+    	line-height: 1;
+    }
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+    	quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+  }
+  @import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css";
+  @import "bootstrap.scss";
+  @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px 5px #dcdcdc;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+
+  .fixedButton{
+    position: fixed;
+    display: block;
+    z-index: 10;
+
+
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: relative;
+
+      &::before {
+
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 11;
+
+      }
+      &:hover {
+
+        &::before {
+
+
+        }
+      }
+    }
+    &:hover {
+
+    }
+
+
+  }
+
+
+  .note {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  h1, h2, h3, h4, h5 {
+
+  }
+  .header {
+
+  }
+  .navigation {
+
+
+    position: relative;
+    z-index: 5;
+
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .leftColumn {
+
+
+    }
+    .rightColumn {
+
+
+      .row {
+        .navBox{
+
+        }
+      }
+    }
+    .navBox {
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+      * {
+        z-index: 3;
+        position: relative;
+      }
+      div {
+        height:100%;
+        width: 100%;
+        display: block;
+      }
+      a{
+
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: relative;
+      }
+
+
+      h4{
+
+      }
+
+      &::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        background: no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: block;
+      }
+      &.featuredBox{
+        &::before{
+
+        }
+        h4{
+
+        }
+
+      }
+      &.box1{
+
+        &::before{
+
+        }
+      }
+      &.box2::before{
+
+      }
+      &.box3::before{
+
+      }
+      &.box4::before{
+
+      }
+      &.box5::before{
+
+      }
+    }
+    .featuredBox {
+
+    }
+    .contactUsBox {
+
+      h4 {
+
+
+        &::before {
+          content: "\2709";
+          font-family: 'Glyphicons Halflings';
+          font-weight: 400;
+        }
+
+      }
+      &::before {
+        content: "";
+        background: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        display: block;
+      }
+    }
+
+
+
+  }
+  a.navAnchor {
+    height: 1px;
+    width: 1px;
+    display: block;
+    background: transparent;
+  }
+  .contentholder {
+    .titleDescription, .itemListHolder {
+      margin: 10px 0px;
+
+    }
+    .titleDescription {
+      padding: 35px 20px 0px;
+      .title {
+        font-size: 2.5em;
+        margin-bottom: .6em;
+
+      }
+      .description {
+        padding: 20px;
+        font-size: .95em;
+      }
+    }
+    .itemListHolder {
+      padding: 0px 80px;
+      margin-bottom: 40px;
+      text-align: left;
+
+      ul {
+        display: table;
+        margin-left: 50px;
+      }
+
+      li {
+
+        margin-bottom: 35px;
+        width: 47%;
+        float: left;
+        height: 150px;
+        min-width: 300px;
+        margin-right: 20px;
+
+
+        &::before {
+          content: "\e095";
+          font-family: 'Glyphicons Halflings';
+          font-size: 70px;
+          float: left;
+          margin-top: -10px;
+
+          margin-right: 20px;
+
+        }
+      }
+
+      a{
+        color: inherit;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        display: block;
+
+
+        .title {
+          font-weight: bold;
+          text-decoration: underline;
+          margin-right: 5px;
+        }
+      }
+    }
+
+    div.holder {
+
+      position: relative;
+
+
+      * {
+        position: relative;
+        z-index: 2;
+      }
+      &::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: .1;
+        z-index: 1;
+        background: no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0px -15px;
+        display: block;
+      }
+
+      &:nth-child(1n+0) {
+
+
+        &::before {
+
+        }
+      }
+      &:nth-child(2n+0) {
+
+
+        .titleDescription, .itemListHolder {
+
+        }
+        &::before {
+
+        }
+      }
+      &:nth-child(3n+0) {
+
+
+        .titleDescription, .itemListHolder {
+
+        }
+        &::before {
+
+        }
+      }
+      &:nth-child(4n+0) {
+
+
+        .titleDescription, .itemListHolder {
+
+        }
+        &::before {
+
+        }
+      }
+      &:nth-child(5n+0) {
+
+
+        .titleDescription, .itemListHolder {
+
+        }
+        &::before {
+
+        }
+      }
+      &:nth-child(6n+0) {
+
+
+        .titleDescription, .itemListHolder {
+
+        }
+        &::before {
+
+        }
+      }
+
+
+
+    }
+  }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

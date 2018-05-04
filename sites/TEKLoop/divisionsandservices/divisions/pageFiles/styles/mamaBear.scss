@@ -1,0 +1,437 @@
+/* testing */
+
+/*$backgroundImage1: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default1.jpg);
+$backgroundImage2: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default2.jpg);
+$backgroundImage3: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default3.jpg);
+$backgroundImage4: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default4.jpg);
+$backgroundImage5: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default5.jpg);
+$backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default6.jpg); */
+
+$backgroundImage1: url( );
+$backgroundImage2: url( );
+$backgroundImage3: url( );
+$backgroundImage4: url( );
+$backgroundImage5: url( );
+$backgroundImage6: url( );
+$contact1: url( );
+$iconSheet: url( );
+
+
+$darkBlue: #0a4873;
+$darkerBlue: #052135;
+$navHeight: 370px;
+
+@import "contentPage0.scss";
+
+#mainHolder {
+
+
+
+  box-shadow: 0px 0px 5px 5px #dcdcdc;
+  font-family: 'Montserrat', sans-serif;
+
+
+  .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
+  .fixedButton{
+
+    bottom: 75px;
+    right: 200px;
+    background: orange;
+    border: 5px solid #fff;
+    height: 60px;
+    width: 60px;
+    -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+    box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+
+    a {
+
+      &::before {
+        content: "\e093";
+
+        color: white;
+        padding: 5px 3px 3px;
+        font-size: 40px;
+        text-shadow: 0px 2px 2px rgba(150, 150, 150, 0.5);
+      }
+      &:hover {
+
+        &::before {
+
+          text-shadow: 0px 1px 1px rgba(150, 150, 150, 0.6);
+        }
+      }
+    }
+    &:hover {
+      -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.6);
+      -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.6);
+      box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.6);
+    }
+
+
+  }
+
+
+  .note {
+
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  .navigation {
+
+    border-bottom: 10px solid white;
+
+    box-shadow: 0px 12px 32px 5px #dad4d4;
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .leftColumn {
+
+
+    }
+    .rightColumn {
+
+
+      .row {
+        .navBox{
+
+        }
+      }
+    }
+    .navBox {
+
+
+      * {
+
+      }
+      div {
+
+      }
+      a{
+
+
+      }
+
+
+      h4{
+
+
+
+        &::after, &::before {
+
+        }
+        &::after{
+
+        }
+        &::before{
+
+
+        }
+      }
+
+      &::before{
+
+
+      }
+      &.featuredBox{
+        &::before{
+
+        }
+        h4{
+
+
+
+          &::before{
+
+
+
+          }
+          &::before, &::after {
+
+          }
+        }
+
+      }
+      &.box1{
+
+
+      }
+
+    }
+    .featuredBox {
+
+    }
+    .contactUsBox {
+
+
+      h4 {
+
+
+        &::before {
+
+
+        }
+
+      }
+      &::before {
+
+      }
+    }
+
+
+
+  }
+  a.navAnchor {
+
+  }
+  .contentholder {
+    .titleDescription, .itemListHolder {
+      margin: 10px 0px;
+      color: $darkBlue;
+    }
+    .titleDescription {
+      padding: 35px 20px 0px;
+      .title {
+        font-size: 2.5em;
+        margin-bottom: .6em;
+
+      }
+      .description {
+        padding: 20px;
+        font-size: .95em;
+      }
+    }
+    .itemListHolder {
+
+
+      ul {
+
+      }
+
+      li {
+
+
+
+        &::before {
+
+        }
+
+        &.milkStork, &.mamaBear {
+
+
+        }
+
+        &.milkStork {
+
+        }
+        &.mamaBear {
+
+        }
+
+
+
+      }
+
+      a{
+
+
+
+        .title {
+
+        }
+      }
+    }
+
+    div.holder {
+
+      position: relative;
+
+
+
+      * {
+        position: relative;
+        z-index: 2;
+      }
+      &::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: .1;
+        z-index: 1;
+        background: no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0px -15px;
+        display: block;
+        background-position: 50%;
+      }
+
+      &:nth-child(1n+0) {
+        background: white;
+
+
+      }
+      &:nth-child(2n+0) {
+        background: $darkBlue;
+
+        .titleDescription, .itemListHolder {
+          color: white;
+        }
+
+      }
+      &:nth-child(3n+0) {
+        background: #32abd0;
+
+        .titleDescription, .itemListHolder {
+          color: $darkerBlue;
+        }
+
+      }
+      &:nth-child(4n+0) {
+        background: #a8bfc7;
+
+        .titleDescription, .itemListHolder {
+          color: $darkerBlue;
+        }
+
+      }
+      &:nth-child(5n+0) {
+        background: #1783d8;
+
+        .titleDescription, .itemListHolder {
+          color: white;
+        }
+
+      }
+      &:nth-child(6n+0) {
+        background: #1f5c85;
+
+        .titleDescription, .itemListHolder {
+          color: white;
+        }
+
+      }
+
+      &.phase1, &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
+          height: 350px;
+
+          div[class^="col"] {
+            padding: 0;
+            margin: 0;
+
+          }
+      }
+      &.welcomeTo {
+        background: white;
+
+        &::before {
+          background-image: $backgroundImage1 ;
+        }
+      }
+      &.phase1 {
+
+        &::before {
+          background-image: $backgroundImage2;
+        }
+      }
+      &.phase2 {
+
+        &::before {
+          background-image: $backgroundImage3;
+        }
+      }
+      &.phase3 {
+
+        &::before {
+            opacity: .2;
+          background-image: $backgroundImage4;
+        }
+      }
+      &.responsibilitiesOfTheMamaBear {
+
+        &::before {
+
+          background-image: $backgroundImage5;
+        }
+      }
+      &.newMamaExpectations  {
+
+        &::before {
+          background-image: $backgroundImage6;
+        }
+      }
+
+      &.documentsAndPrograms   {
+
+        &::before {
+          background-image: $backgroundImage6;
+        }
+      }
+
+      &.regionalContacts {
+
+        &::before {
+          background-image: $backgroundImage6;
+        }
+
+        .mapHolder {
+          margin: 0 auto;
+          height: 600px;
+          width: 900px;
+          border: 1px solid white;
+        }
+      }
+
+      &.other  {
+
+        &::before {
+          background-image: $backgroundImage6;
+        }
+      }
+
+      div.imageHolder {
+        height: 100%;
+        width: 100%;
+        background-color: gray;
+        border: 5px solid darkgray;
+
+
+      }
+
+
+
+    }
+  }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

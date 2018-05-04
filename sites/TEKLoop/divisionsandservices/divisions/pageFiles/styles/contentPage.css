@@ -1,0 +1,348 @@
+#mainHolder {
+		  width: 90%;
+		  margin: 0 auto;
+		  box-shadow: 0px 0px 5px 5px #dcdcdc;
+		font-family: 'Montserrat', sans-serif;
+	  }
+	#mainHolder h1,#mainHolder h2,#mainHolder h3,#mainHolder h4,#mainHolder h5 {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+	}
+#mainHolder a.navAnchor {
+	height: 1px;
+	width: 1px;
+	display: block;
+	background: transparent;
+}
+#mainholder .titleDescription, #mainholder .itemListHolder {
+	margin: 10px 0px;
+}
+#mainholder .titleDescription {
+	padding: 0px 20px;
+}
+#mainholder .itemListHolder {
+		padding: 0px 40px;
+}
+
+#mainHolder div.holder:nth-child(1n+0){
+	background: white;
+}
+#mainHolder div.holder:nth-child(2n+0){
+	background: blue;
+}
+#mainHolder div.holder:nth-child(3n+0){
+	background: orange;
+}
+#mainHolder div.holder:nth-child(4n+0){
+	background: purple;
+}
+	  #mainHolder header {
+		  height: 220px;
+
+			background: #fff;
+		  color: white;
+
+
+
+	  }
+		#mainHolder .italics {
+			font-style: italic;
+		}
+		#mainHolder .big {
+			font-size: 1.1em;
+			text-transform: uppercase;
+		}
+	  #mainHolder header .row {
+		  height: 100%;
+	  }
+
+
+
+
+		#mainHolder header .row .logo {
+			background: url("/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/learnShareRepeat/logo-small.png") no-repeat center center ;
+			height: 180px;
+			width:80%;
+			margin: 0 auto 20px;
+			background-size: auto 100%;
+		}
+		#mainHolder header h2 {
+			text-indent: -10000px;
+		}
+	   #mainHolder h2 {
+
+	      width: 45%;
+    	margin: 25px auto;
+    	min-width: 300px;
+	  }
+
+	  #mainHolder nav.navbar {
+		 background: #0a1c2b;
+		 padding: 0;
+		 display: none;
+	  }
+
+ 		 #mainHolder nav.navbar h4 {
+			 color: #fff;
+		 }
+	  #mainHolder .container  {
+		  width: 100%;
+		  margin: 4% auto;
+
+	  }
+	  #mainHolder .row.holder {
+		  width: 94%;
+		  margin: 0 auto;
+	  }
+		#mainHolder .itemList{
+
+		}
+
+		#mainHolder .itemList .item {
+			margin-bottom: 10px;
+		}
+
+		#mainHolder .whatIsLearnShareRepeat {
+			border-right: 1px solid #0a1c2b;
+		}
+
+		#mainHolder .didYouKnow, #mainHolder .whatIsLearnShareRepeat {
+			padding: 25px;
+		}
+		#mainHolder .didYouKnow h4, #mainHolder .whatIsLearnShareRepeat h4 {
+			background: #0a1c2b;
+			color: #fff;
+			height: 40px;
+    	padding-top: 10px
+		}
+			#mainHolder .didYouKnow {
+				height: 370px;
+				overflow-y: scroll;
+				overflow-x: hidden;
+			}
+		#mainHolder .videoPlayerBlock {
+			background: #0a1c2b;
+		}
+
+#mainHolder .salesToolkit a, #mainHolder .salesToolkit a:hover{
+	text-decoration: none;
+	color: black;
+}
+	  #mainHolder .salesToolkit .icon {
+		  height: 50px;
+		  width: 60px;
+		  background: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/teamPages/icons.png) no-repeat center center #fff;
+		  margin: 0 auto;
+
+	  }
+
+	  #mainHolder .salesToolkit .module h4 {
+		  font-size: 90%;
+		  font-weight: bold;
+		  text-transform: uppercase;
+	  }
+
+	  #mainHolder .salesToolkit .module p {
+		  font-size: 90%;
+		  width: 85%;
+		  margin: 0 auto;
+	  }
+
+	  #mainHolder .salesToolkit .playbook .icon {
+		  background-position: 0px 3px;
+	  }
+	  #mainHolder .salesToolkit .discovery .icon {
+		  background-position: 0px -47px;
+	  }
+
+	  #mainHolder .salesToolkit .insights .icon {
+		  background-position: 0px -97px;
+	  }
+
+	  #mainHolder .salesToolkit .talkTracks .icon {
+		  background-position: 0px -147px;
+	  }
+
+	  #mainHolder .salesToolkit .caseStudies .icon {
+		  background-position: 0px -198px;
+	  }
+
+	  #mainHolder .salesToolkit .personas .icon {
+		  background-position: 0px -249px;
+	  }
+	  #mainHolder .theTeam {
+		  padding: 10px 50px;
+	  }
+
+	  #mainHolder .people {
+		  margin: 0 auto;
+		  float: none;
+		  overflow: hidden;
+		  height: 140px;
+		  border: solid #fbc93d 2px;
+		  border-radius: 3px;
+		  padding: 5px 5px 10px;
+		  position: relative;
+	  }
+
+	  #mainHolder .people::after {
+		  content: "";
+		  display: table;
+	  }
+
+	  #mainHolder .people .person {
+
+
+		  width: 120px;
+		  height: auto;
+		  display: inline-block;
+		  cursor: pointer;
+
+	  }
+	  #mainHolder .people img {
+
+
+		  width: 80px;
+		  height: 80px;
+		  margin: 10px auto;
+		  background: gray;
+
+
+	  }
+	  #mainHolder .people .person p {
+		  font-size: 80%;
+
+	  }
+	  #mainHolder .people .person p span{
+		 display: block;
+	  }
+
+	  #mainHolder .people .person p span.name {
+		   font-weight: bold;
+	  }
+	  #mainHolder .people .person p span.title {
+		  font-size: 70%;
+	  }
+
+	  #mainHolder .people .person .brief {
+		  display: none;
+		  position: absolute;
+		  height: 100%;
+		  width: 100%;
+		  border: black 1px solid;
+		  top: 0px;
+		  left: 0px;
+		  background: lightgray;
+
+	  }
+
+	  #mainHolder .people .person .brief img {
+		  float: left;
+		  margin: 15px;
+
+	  }
+	  #mainHolder .people .person .brief .bio {
+		  clear: both;
+	  }
+	  #mainHolder .people .person .brief .close{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	  }
+	  #mainHolder .freshInfo {
+		  height: 300px;
+		  overflow: hidden;
+
+	  }
+	  #mainHolder .freshInfo .holder {
+		  height: 250px;
+		  overflow: scroll;
+
+	  }
+
+	  #mainHolder .recentAdds .holder {
+
+	  }
+	  #mainHolder .recentAdds .holder.items {
+
+		  margin: 10px 0;
+		  overflow: hidden;
+		  padding: 0px 20px;
+		  height: 310px;
+	  }
+	#mainHolder .recentAdds .carousel {
+		max-width: 500px;
+	}
+	  #mainHolder .recentAdds .holder.items a {
+		  font-weight: bold;
+		  text-decoration: none;
+
+
+	  }
+	  #mainHolder .container {
+		  margin: 4% auto;
+
+	  }
+	  #mainHolder footer {
+		  background: #0a1c2b;
+		  padding: 3%;
+		  color: white;
+		  width: 100%;
+
+	  }
+
+		@media (min-width: 768px) {
+			#mainHolder .didYouKnow h4, #mainHolder .whatIsLearnShareRepeat h4 {
+				display: none;
+			}
+			#mainHolder nav.navbar {
+			 display: block;
+			}
+		}
+
+		@media (min-width: 992px) {
+			#mainHolder header {
+			  height: 250px;
+
+				background: #fff;
+			  color: white;
+
+
+
+		  }
+			#mainHolder header .row .logo {
+				background: url("/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/learnShareRepeat/logo-wide.png") no-repeat center center ;
+					height: 200px;
+					background-size: 100%;
+			}
+			#mainHolder .didYouKnow h4, #mainHolder .whatIsLearnShareRepeat h4 {
+				display: none;
+			}
+			#mainHolder nav.navbar {
+			 display: block;
+			}
+		}
+
+		@media (min-width: 1200px) {
+			#mainHolder header {
+			  height: 250px;
+
+				background: #fff;
+			  color: white;
+
+
+
+		  }
+
+			#mainHolder header .row .logo {
+				background: url("/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/learnShareRepeat/logo-wide.png") no-repeat center center ;
+					height: 200px;
+					background-size: 100%;
+			}
+			#mainHolder .didYouKnow h4, #mainHolder .whatIsLearnShareRepeat h4 {
+				display: none;
+			}
+			#mainHolder nav.navbar {
+			 display: block;
+			}
+		}
