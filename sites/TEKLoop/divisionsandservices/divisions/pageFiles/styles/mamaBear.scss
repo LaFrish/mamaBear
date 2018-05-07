@@ -15,11 +15,13 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
     font-style: normal;
 
 }
+
+
 // ****IMAGES****
-$backgroundImage1: url( );
-$backgroundImage2: url( );
-$backgroundImage3: url( );
-$backgroundImage4: url( );
+$backgroundImage1: url( "sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/Mama Bear Revised.png");
+$backgroundImage2: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/phase1.png" );
+$backgroundImage3: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/phase2.png" );
+$backgroundImage4: url( "sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/phase3.png");
 $backgroundImage5: url( );
 $backgroundImage6: url( );
 $contact1: url( );
@@ -28,8 +30,8 @@ $iconSheet: url( );
 // ****COLORS****
 $darkBlue: #0a4873;
 $darkerBlue: #052135;
-$lightBlue: #c9e8e5;
-// $darkerLightBlue: #c9e8e5;
+$lightBlue: #c9e8e550;
+$darkerLightBlue: #c9e8e5;
 $mint: #aee1c550;
 $darkMint: #aee1c5;
 $lavender: #d4c9f850;
@@ -57,7 +59,10 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
   box-shadow: 0px 0px 5px 5px #dcdcdc;
   font-family: 'Montserrat', sans-serif;
-
+  p{
+    font-size: 20px;
+    line-height: 26px;
+  }
 
   .row-eq-height {
     display: -webkit-box;
@@ -104,22 +109,32 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
 
   }
-
+  .banner{
+    background-color: lightgray;
+    border: 1px solid white;
+    img{
+      margin: 20px 10px 10px 30%;
+      width: 40%;
+    }
+  }
 
   .note {
 
   }
 
   h1, h2, h3, h4, h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $scriptFont;
     font-weight: bold;
+    text-align: left;
   }
 
   .navigation {
+    width: 100%;
 
-    border-bottom: 10px solid white;
+    // border-bottom: 10px solid white;
 
-    box-shadow: 0px 12px 32px 5px #dad4d4;
+    // box-shadow: 0px 12px 32px 5px #dad4d4;
+    border-right: 0px;
 
     * {
       padding: 0;
@@ -145,10 +160,14 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
       * {
 
       }
+      .navbar{
+        border-radius: 0px;
+      }
       div {
 
       }
       a{
+
 
 
       }
@@ -225,21 +244,37 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
   a.navAnchor {
 
   }
+
+
+  #myNavbar{
+    ul{
+      width: 100%;
+      li{
+        width: 20%;
+        a{
+          font-family: $scriptFont;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
   .contentholder {
     .titleDescription, .itemListHolder {
       margin: 10px 0px;
-      color: $darkBlue;
+      color: black;
     }
     .titleDescription {
       padding: 35px 20px 0px;
       .title {
         font-size: 2.5em;
-        margin-bottom: .6em;
+        // margin-bottom: .6em;
 
       }
       .description {
+        color: darkgray;
         padding: 20px;
-        font-size: .95em;
+        // font-size: .95em;
       }
     }
     .itemListHolder {
@@ -308,6 +343,7 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
         margin: 0px -15px;
         display: block;
         background-position: 50%;
+
       }
 
       &:nth-child(1n+0) {
@@ -316,43 +352,71 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
       }
       &:nth-child(2n+0) {
-        background: $darkBlue;
+        background: $mint;
+        border: 5px solid $darkMint;
 
         .titleDescription, .itemListHolder {
           color: white;
+        }
+        .imageHolder{
+          border-left: 5px solid $darkMint;
+        img{
+          width: 100%;
+          height: 340px;
+          }
         }
 
       }
       &:nth-child(3n+0) {
-        background: #32abd0;
+        background: $lavender;
+        border: 5px solid $darkLavender;
 
         .titleDescription, .itemListHolder {
           color: $darkerBlue;
+        }
+        .imageHolder{
+          border-right: 5px solid $darkLavender;
+        img{
+          width: 100%;
+          height: 340px;
+          }
         }
 
       }
       &:nth-child(4n+0) {
-        background: #a8bfc7;
+        background: $peach;
+        border: 5px solid $darkPeach;
 
         .titleDescription, .itemListHolder {
           color: $darkerBlue;
         }
+        .imageHolder{
+          border-left: 5px solid $darkPeach;
+        img{
+          width: 100%;
+          height: 340px;
+          }
+        }
 
       }
       &:nth-child(5n+0) {
-        background: #1783d8;
+        background: $lightBlue;
+        border: 5px solid $darkerLightBlue;
 
         .titleDescription, .itemListHolder {
           color: white;
         }
+
 
       }
       &:nth-child(6n+0) {
-        background: #1f5c85;
+        background: $pink;
+        border: 5px solid $darkPink;
 
         .titleDescription, .itemListHolder {
           color: white;
         }
+
 
       }
 
@@ -367,20 +431,27 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
       }
       &.welcomeTo {
         background: white;
+        border: 5px solid lightgray;
 
         &::before {
+          opacity: 1;
+
           background-image: $backgroundImage1 ;
         }
       }
       &.phase1 {
 
         &::before {
+
           background-image: $backgroundImage2;
+
+
         }
       }
       &.phase2 {
 
         &::before {
+
           background-image: $backgroundImage3;
         }
       }
@@ -388,6 +459,7 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
         &::before {
             opacity: .2;
+
           background-image: $backgroundImage4;
         }
       }
@@ -395,24 +467,30 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
         &::before {
 
+
           background-image: $backgroundImage5;
         }
       }
       &.newMamaExpectations  {
 
         &::before {
+
           background-image: $backgroundImage6;
         }
       }
 
       &.documentsAndPrograms   {
-
+        background: white;
+        border: 5px solid lemonchiffon;
         &::before {
+
           background-image: $backgroundImage6;
         }
       }
 
       &.regionalContacts {
+        background: white;
+        border: 5px solid bubblegum;
 
         &::before {
           background-image: $backgroundImage6;
@@ -427,8 +505,10 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
       }
 
       &.other  {
-
+        background: white;
+        border: 5px solid lightgray;
         &::before {
+
           background-image: $backgroundImage6;
         }
       }
@@ -436,8 +516,8 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
       div.imageHolder {
         height: 100%;
         width: 100%;
-        background-color: gray;
-        border: 5px solid darkgray;
+        background-color: transparent;
+        // border: 5px solid darkgray;
 
 
       }
