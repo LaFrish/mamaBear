@@ -8311,6 +8311,92 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.documentsAndPrograms {
   background: white;
   border: 5px solid lemonchiffon;
+  padding: 0 20px 0 20px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms h4.title {
+  font-size: 30px;
+  line-height: 75px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid aqua;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i {
+  background-color: pink;
+  width: 140px;
+  height: 140px;
+  color: red;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid aqua;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 i {
+  background-color: pink;
+  width: 140px;
+  height: 140px;
+  color: red;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid aqua;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid aqua;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid aqua;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid aqua;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms::before {
@@ -8319,7 +8405,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 
 #mainHolder .contentholder div.holder.regionalContacts {
   background: white;
-  border: 5px solid bubblegum;
+  border: 5px solid aqua;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts::before {
