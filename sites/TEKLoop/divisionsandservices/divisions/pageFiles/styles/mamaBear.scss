@@ -17,6 +17,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 
+
 // ****IMAGES****
 $backgroundImage1: url( "sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/Mama Bear Revised.png");
 $backgroundImage2: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/phase1.png" );
@@ -48,17 +49,15 @@ $navHeight: 370px;
 
 // ****FONTS****
 $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
-
+$montFont: 'Montserrat', sans-serif;
 
 @import "contentPage0.scss";
 
 
 #mainHolder {
 
-
-
   box-shadow: 0px 0px 5px 5px #dcdcdc;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $montFont;
   p{
     font-size: 20px;
     line-height: 26px;
@@ -403,15 +402,12 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
         .description{
             text-align: left;
             padding-left: 5%;
-
             width:90%;
             margin-top: 5%;
             margin-left: 5%;
             margin-right: 5%;
             h2{
               text-align: center;
-              // text-decoration: underline;
-
             }
             p{
 
@@ -475,7 +471,6 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
           margin-right: 5%;
           h2{
             text-align: center;
-            // text-decoration: underline;
           }
           p{
 
@@ -539,13 +534,10 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
             margin-right: 5%;
             h2{
               text-align: center;
-              // text-decoration: underline;
             }
             p{
-
             }
           }
-
         .titleDescription, .itemListHolder {
           color: $darkerBlue;
         }
@@ -553,10 +545,8 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
           border-left: 5px solid $darkPeach;
         img{
           width: 100%;
-          // height: 340px;
           }
         }
-
       }
       &:nth-child(5n+0) {
         background: $lightBlue;
@@ -567,29 +557,20 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
             font-size: 30px;
             text-align: center;
           }
-
-          .description{
-              text-align: left;
-              padding-left: 5%;
-
-              width:90%;
-              // margin-top: 5%;
-              margin-left: 5%;
-              margin-right: 5%;
-              h2{
-                text-align: center;
-                // text-decoration: underline;
-              }
-              p{
+          .row{
+            .description{
+                text-align: left;
+                padding-left: 5%;
+                width:90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                h2{
+                  text-align: center;
+                }
+                p{
+                }
               }
             }
-
-
-        // .titleDescription, .itemListHolder {
-        //   color: white;
-        // }
-
-
       }
       &:nth-child(6n+0) {
         background: $pink;
@@ -600,31 +581,21 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
           font-size: 30px;
           text-align: center;
         }
-
-        .description{
-            text-align: left;
-            padding-left: 5%;
-            width:90%;
-            // margin-top: 5%;
-            margin-left: 5%;
-            margin-right: 5%;
-            h2{
-              text-align: center;
-              // text-decoration: underline;
-            }
-            p{
-
-            }
-            ul{
-              li{
-
-                padding-left: 5%;
+        .row{
+          .description{
+              text-align: left;
+              padding-left: 5%;
+              width:90%;
+              margin-left: 5%;
+              margin-right: 5%;
+              margin-top: 0;
+              h2{
+                text-align: center;
+              }
+              p{
               }
             }
           }
-        // .titleDescription, .itemListHolder {
-        //   color: white;
-        // }
       }
 
       &.phase1, &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
@@ -642,7 +613,6 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
         &::before {
           opacity: 1;
-
           background-image: $backgroundImage1 ;
         }
       }
@@ -673,16 +643,38 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
       &.responsibilitiesOfTheMamaBear {
 
         &::before {
-
-
           // background-image: $backgroundImage5;
+        }
+
+          h4.title{
+            // font-size: 30px;
+            // line-height: 75px;
+
+          }
+          .row{
+          // .description{
+          //   p{
+          //
+          //   }
+          // }
         }
       }
       &.newMamaExpectations  {
-
         &::before {
-
           // background-image: $backgroundImage6;
+        }
+        h4.title{
+          font-size: 30px;
+          line-height: 75px;
+
+        }
+        .row{
+
+          .description{
+            p{
+
+            }
+          }
         }
       }
 
@@ -706,10 +698,24 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
             }
             i{
-              background-color: pink;
+
               width: 140px;
               height: 140px;
-              color: red;
+
+              .icon{
+                  }
+
+              svg{
+                width: 100px;
+                height: 100px;
+              &:hover{
+                  background: yellow;
+                }
+              }
+              &:hover{
+                color: pink;
+              }
+
             }
             h2{
               // font-weight: 400;
@@ -739,7 +745,7 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
             }
             i{
-              background-color: pink;
+
               width: 140px;
               height: 140px;
               color: red;
@@ -802,16 +808,80 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
       &.regionalContacts {
         background: white;
         border: 5px solid aqua;
+        // height: 2000px;
 
         &::before {
           background-image: $backgroundImage6;
         }
+        .row{
+          // .col-lg-12.col-md-12.col-sm-12.col-xs-12{
+            h4.title{
+              font-size: 30px;
+              line-height: 75px;
+            }
+            p{
 
-        .mapHolder {
-          margin: 0 auto;
-          height: 600px;
-          width: 900px;
-          border: 1px solid white;
+            }
+            .mapHolder {
+              margin: 0 auto;
+              // height: 600px;
+              // height: 100%;
+
+              border: 1px solid white;
+
+              .usMap{
+
+                h4{
+
+                }
+                img{
+
+                }
+                svg{
+                  width: 900px;
+
+                }
+
+              }
+              .canadaFlag{
+                height: 100%;
+                h4{
+
+                }
+                img{
+
+                }
+              }
+            }
+
+          // }
+        }
+        .row{
+          width: 100%;
+          // .col-lg-12.col-md-12.col-sm-12.col-xs-12{
+            h4{
+              font-size: 30px;
+              line-height: 75px;
+            }
+            ul{
+              text-align: left;
+
+              li{
+                font-family: $scriptFont;
+                font-size: 20px;
+                a{
+                  font-family: $montFont;
+                  font-size: 20px;
+
+                }
+              }
+            }
+            p{
+              a{
+
+              }
+            }
+          // }
         }
       }
 
@@ -821,6 +891,16 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
         &::before {
 
           background-image: $backgroundImage6;
+        }
+        .row{
+          .col-lg-12 .col-md-12 .col-sm-12 .col-xs-12{
+            h4{
+
+            }
+            p{
+
+            }
+          }
         }
       }
 
@@ -840,7 +920,12 @@ $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 
   }
 }
+ .faq{
+  background-image: url('sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/icon-ship.svg');
+  color:blue;
 
+
+}
 
 
 .space50{

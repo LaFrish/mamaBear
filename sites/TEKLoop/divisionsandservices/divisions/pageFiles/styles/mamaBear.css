@@ -7912,7 +7912,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 
 #mainHolder {
   box-shadow: 0px 0px 5px 5px #dcdcdc;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #mainHolder p {
@@ -8249,7 +8249,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   text-align: center;
 }
 
-#mainHolder .contentholder div.holder:nth-child(5n+0) .description {
+#mainHolder .contentholder div.holder:nth-child(5n+0) .row .description {
   text-align: left;
   padding-left: 5%;
   width: 90%;
@@ -8257,7 +8257,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   margin-right: 5%;
 }
 
-#mainHolder .contentholder div.holder:nth-child(5n+0) .description h2 {
+#mainHolder .contentholder div.holder:nth-child(5n+0) .row .description h2 {
   text-align: center;
 }
 
@@ -8273,20 +8273,17 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   text-align: center;
 }
 
-#mainHolder .contentholder div.holder:nth-child(6n+0) .description {
+#mainHolder .contentholder div.holder:nth-child(6n+0) .row .description {
   text-align: left;
   padding-left: 5%;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 0;
 }
 
-#mainHolder .contentholder div.holder:nth-child(6n+0) .description h2 {
+#mainHolder .contentholder div.holder:nth-child(6n+0) .row .description h2 {
   text-align: center;
-}
-
-#mainHolder .contentholder div.holder:nth-child(6n+0) .description ul li {
-  padding-left: 5%;
 }
 
 #mainHolder .contentholder div.holder.phase1, #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear, #mainHolder .contentholder div.holder.newMamaExpectations {
@@ -8308,6 +8305,11 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   background-image: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/Mama Bear Revised.png");
 }
 
+#mainHolder .contentholder div.holder.newMamaExpectations h4.title {
+  font-size: 30px;
+  line-height: 75px;
+}
+
 #mainHolder .contentholder div.holder.documentsAndPrograms {
   background: white;
   border: 5px solid lemonchiffon;
@@ -8327,10 +8329,21 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i {
-  background-color: pink;
   width: 140px;
   height: 140px;
-  color: red;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i svg {
+  width: 100px;
+  height: 100px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i svg:hover {
+  background: yellow;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i:hover {
+  color: pink;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 h2 {
@@ -8353,7 +8366,6 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 i {
-  background-color: pink;
   width: 140px;
   height: 140px;
   color: red;
@@ -8412,11 +8424,45 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   background-image: url();
 }
 
-#mainHolder .contentholder div.holder.regionalContacts .mapHolder {
+#mainHolder .contentholder div.holder.regionalContacts .row h4.title {
+  font-size: 30px;
+  line-height: 75px;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .mapHolder {
   margin: 0 auto;
-  height: 600px;
-  width: 900px;
   border: 1px solid white;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .mapHolder .usMap svg {
+  width: 900px;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .mapHolder .canadaFlag {
+  height: 100%;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row {
+  width: 100%;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row h4 {
+  font-size: 30px;
+  line-height: 75px;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row ul {
+  text-align: left;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row ul li {
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+  font-size: 20px;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 #mainHolder .contentholder div.holder.other {
@@ -8432,4 +8478,9 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+.faq {
+  background-image: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/icon-ship.svg");
+  color: blue;
 }
