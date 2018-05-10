@@ -8242,7 +8242,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   border: 5px solid #c9e8e5;
 }
 
-#mainHolder .contentholder div.holder:nth-child(5n+0) .title {
+#mainHolder .contentholder div.holder:nth-child(5n+0) .row .title {
   line-height: 75px;
   padding-left: 10px;
   font-size: 30px;
@@ -8266,7 +8266,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   border: 5px solid #fdccc4;
 }
 
-#mainHolder .contentholder div.holder:nth-child(6n+0) .title {
+#mainHolder .contentholder div.holder:nth-child(6n+0) .row .title {
   line-height: 75px;
   padding-left: 10px;
   font-size: 30px;
@@ -8305,7 +8305,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   background-image: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/Mama Bear Revised.png");
 }
 
-#mainHolder .contentholder div.holder.newMamaExpectations h4.title {
+#mainHolder .contentholder div.holder.newMamaExpectations .row h4.title {
   font-size: 30px;
   line-height: 75px;
 }
@@ -8314,6 +8314,10 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   background: white;
   border: 5px solid lemonchiffon;
   padding: 0 20px 0 20px;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms::before {
+  background-image: url();
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms h4.title {
@@ -8328,30 +8332,41 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   border: 1px solid aqua;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i {
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4:hover {
+  background-color: lemonchiffon;
+  color: #fff;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a {
+  text-decoration: none;
+  color: #000;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a:hover {
+  color: pink;
+}
+
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i {
   width: 140px;
   height: 140px;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i svg {
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i svg {
   width: 100px;
   height: 100px;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i svg:hover {
-  background: yellow;
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i:hover {
+  color: white;
+  fill: pink;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 i:hover {
-  color: pink;
-}
-
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 h2 {
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a h2 {
   text-align: center;
   font-size: 25px;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 p {
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a p {
   margin-right: 10px;
   margin-left: 10px;
   text-align: center;
@@ -8368,7 +8383,6 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 i {
   width: 140px;
   height: 140px;
-  color: red;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 h2 {
@@ -8411,10 +8425,6 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   border: 1px solid aqua;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms::before {
-  background-image: url();
-}
-
 #mainHolder .contentholder div.holder.regionalContacts {
   background: white;
   border: 5px solid aqua;
@@ -8427,6 +8437,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.regionalContacts .row h4.title {
   font-size: 30px;
   line-height: 75px;
+  padding-left: 10px;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts .row .mapHolder {
@@ -8472,6 +8483,11 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 
 #mainHolder .contentholder div.holder.other::before {
   background-image: url();
+}
+
+#mainHolder .contentholder div.holder.other .row h4 {
+  font-size: 30px;
+  line-height: 75px;
 }
 
 #mainHolder .contentholder div.holder div.imageHolder {

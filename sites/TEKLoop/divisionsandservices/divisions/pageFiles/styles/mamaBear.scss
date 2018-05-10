@@ -332,18 +332,11 @@ $montFont: 'Montserrat', sans-serif;
     }
 
     div.holder {
-
       position: relative;
-
-
-
-
       * {
         position: relative;
         z-index: 2;
-
       }
-
       &::before{
         content: "";
         height: 100%;
@@ -361,11 +354,8 @@ $montFont: 'Montserrat', sans-serif;
         background-position: 50%;
 
       }
-
       &:nth-child(1n+0) {
         background: white;
-
-
       }
       &:nth-child(2n+0) {
 
@@ -439,61 +429,60 @@ $montFont: 'Montserrat', sans-serif;
           display: inline-flex;
           width: 100%;
 
-        .sticker{
-          background-color: #fff;
-          border: 5px solid $darkLavender;
-          border-radius: 50%;
-          margin: 10px;
-          height: 75px;
-          width: 75px;
-          -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
-          -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
-          box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
-          color: #000;
-          font-family: $scriptFont;
-          font-size: 20px;
-          padding: 14px 10px 0px 8px;
-        }
-        .title{
-          line-height: 75px;
-          padding-left: 10px;
-          font-size: 30px;
-          text-align: center;
-        }
-      }
-      .description{
-          text-align: left;
-          padding-left: 5%;
-
-          width:90%;
-          margin-top: 5%;
-          margin-left: 5%;
-          margin-right: 5%;
-          h2{
+          .sticker{
+            background-color: #fff;
+            border: 5px solid $darkLavender;
+            border-radius: 50%;
+            margin: 10px;
+            height: 75px;
+            width: 75px;
+            -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            color: #000;
+            font-family: $scriptFont;
+            font-size: 20px;
+            padding: 14px 10px 0px 8px;
+          }
+          .title{
+            line-height: 75px;
+            padding-left: 10px;
+            font-size: 30px;
             text-align: center;
           }
-          p{
+        }
+        .description{
+            text-align: left;
+            padding-left: 5%;
 
-          }
-          ul{
-            li{
+            width:90%;
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+            h2{
+              text-align: center;
+            }
+            p{
 
-              padding-left: 5%;
+            }
+            ul{
+              li{
+
+                padding-left: 5%;
+              }
             }
           }
-      }
 
-        .titleDescription, .itemListHolder {
-          color: $darkerBlue;
-        }
-        .imageHolder{
-          border-right: 5px solid $darkLavender;
-        img{
-          width: 100%;
-          // height: 340px;
+          .titleDescription, .itemListHolder {
+            color: $darkerBlue;
           }
-        }
-
+          .imageHolder{
+            border-right: 5px solid $darkLavender;
+            img{
+              width: 100%;
+              // height: 340px;
+            }
+          }
       }
       &:nth-child(4n+0) {
         background: $peach;
@@ -551,13 +540,13 @@ $montFont: 'Montserrat', sans-serif;
       &:nth-child(5n+0) {
         background: $lightBlue;
         border: 5px solid $darkerLightBlue;
-          .title{
-            line-height: 75px;
-            padding-left: 10px;
-            font-size: 30px;
-            text-align: center;
-          }
           .row{
+            .title{
+              line-height: 75px;
+              padding-left: 10px;
+              font-size: 30px;
+              text-align: center;
+            }
             .description{
                 text-align: left;
                 padding-left: 5%;
@@ -575,13 +564,14 @@ $montFont: 'Montserrat', sans-serif;
       &:nth-child(6n+0) {
         background: $pink;
         border: 5px solid $darkPink;
-        .title{
-          line-height: 75px;
-          padding-left: 10px;
-          font-size: 30px;
-          text-align: center;
-        }
         .row{
+          .title{
+            line-height: 75px;
+            padding-left: 10px;
+            font-size: 30px;
+            text-align: center;
+          }
+
           .description{
               text-align: left;
               padding-left: 5%;
@@ -600,11 +590,9 @@ $montFont: 'Montserrat', sans-serif;
 
       &.phase1, &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
           height: 400px;
-
           div[class^="col"] {
             padding: 0;
             margin: 0;
-
           }
       }
       &.welcomeTo {
@@ -617,7 +605,6 @@ $montFont: 'Montserrat', sans-serif;
         }
       }
       &.phase1 {
-
         &::before {
 
           // background-image: $backgroundImage2;
@@ -641,17 +628,14 @@ $montFont: 'Montserrat', sans-serif;
         }
       }
       &.responsibilitiesOfTheMamaBear {
-
         &::before {
           // background-image: $backgroundImage5;
         }
-
-          h4.title{
-            // font-size: 30px;
-            // line-height: 75px;
-
-          }
           .row{
+            h4.title{
+              // font-size: 30px;
+              // line-height: 75px;
+            }
           // .description{
           //   p{
           //
@@ -663,12 +647,13 @@ $montFont: 'Montserrat', sans-serif;
         &::before {
           // background-image: $backgroundImage6;
         }
-        h4.title{
-          font-size: 30px;
-          line-height: 75px;
 
-        }
         .row{
+          h4.title{
+            font-size: 30px;
+            line-height: 75px;
+
+          }
 
           .description{
             p{
@@ -677,11 +662,14 @@ $montFont: 'Montserrat', sans-serif;
           }
         }
       }
-
       &.documentsAndPrograms   {
         background: white;
         border: 5px solid lemonchiffon;
         padding: 0 20px 0 20px;
+        &::before {
+
+          background-image: $backgroundImage6;
+        }
         h4.title{
           font-size: 30px;
           line-height: 75px;
@@ -692,47 +680,59 @@ $montFont: 'Montserrat', sans-serif;
             margin-bottom: 1.5rem;
             text-align: center;
             padding: 20px;
-
             border: 1px solid aqua;
-            img{
-
+            &:hover {
+              background-color: lemonchiffon;
+              color: #fff;
             }
-            i{
 
-              width: 140px;
-              height: 140px;
-
-              .icon{
-                  }
-
-              svg{
-                width: 100px;
-                height: 100px;
-              &:hover{
-                  background: yellow;
-                }
-              }
+            a{
+              text-decoration: none;
+              color: #000;
               &:hover{
                 color: pink;
+                // background-color: pink;
               }
+              img{
+              }
+              i{
+                width: 140px;
+                height: 140px;
 
-            }
-            h2{
-              // font-weight: 400;
-              text-align: center;
-              font-size: 25px;
+                svg{
+                  width: 100px;
+                  height: 100px;
 
-            }
-            p{
-              margin-right: 10px;
-              margin-left: 10px;
-              text-align: center;
-              font-size: 14px;
+                // &:hover{
+                //     color: white;
+                //     fill: pink;
+                //
+                //
+                //   }
+                }
+                &:hover{
 
-            }
-            button{
-              a{
+                  color: white;
+                  fill: pink;
 
+                }
+
+              }
+              h2{
+                // font-weight: 400;
+                text-align: center;
+                font-size: 25px;
+
+              }
+              p{
+                margin-right: 10px;
+                margin-left: 10px;
+                text-align: center;
+                font-size: 14px;
+              }
+              button{
+                a{
+                }
               }
             }
           }
@@ -748,7 +748,7 @@ $montFont: 'Montserrat', sans-serif;
 
               width: 140px;
               height: 140px;
-              color: red;
+              // color: red;
             }
             h2{
               // font-weight: 400;
@@ -789,7 +789,6 @@ $montFont: 'Montserrat', sans-serif;
             text-align: center;
             padding: 20px;
             border: 1px solid aqua;
-
           }
           .col-lg-2{
             margin-bottom: 1.5rem;
@@ -797,14 +796,8 @@ $montFont: 'Montserrat', sans-serif;
             padding: 20px;
             border: 1px solid aqua;
           }
-
-        }
-        &::before {
-
-          background-image: $backgroundImage6;
         }
       }
-
       &.regionalContacts {
         background: white;
         border: 5px solid aqua;
@@ -818,6 +811,7 @@ $montFont: 'Montserrat', sans-serif;
             h4.title{
               font-size: 30px;
               line-height: 75px;
+              padding-left: 10px;
             }
             p{
 
@@ -893,14 +887,17 @@ $montFont: 'Montserrat', sans-serif;
           background-image: $backgroundImage6;
         }
         .row{
-          .col-lg-12 .col-md-12 .col-sm-12 .col-xs-12{
+          // .col-lg-12 .col-md-12 .col-sm-12 .col-xs-12{
             h4{
+              font-size: 30px;
+              line-height: 75px;
+
 
             }
             p{
 
             }
-          }
+          // }
         }
       }
 
