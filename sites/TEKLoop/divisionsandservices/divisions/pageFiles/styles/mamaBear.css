@@ -7928,9 +7928,9 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .fixedButton {
-  bottom: 75px;
+  bottom: 10px;
   right: 100px;
-  background: orange;
+  background: #FDB151;
   border: 5px solid #fff;
   border-radius: 50%;
   height: 100px;
@@ -7940,6 +7940,20 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   box-shadow: 0px 3px 9px 2px rgba(0, 0, 0, 0.31);
   text-align: center;
   padding-top: 5px;
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+}
+
+#mainHolder .fixedButton p {
+  margin-top: 5px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000;
+}
+
+#mainHolder .fixedButton img {
+  margin-left: -5px;
+  margin-top: -5px;
+  width: 80px;
 }
 
 #mainHolder .fixedButton a::before {
@@ -7962,12 +7976,45 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 
 #mainHolder .banner {
   background-color: lightgray;
-  border: 1px solid white;
+  display: inline-block;
+  height: 400px;
+  width: 100%;
 }
 
-#mainHolder .banner img {
+#mainHolder .banner .imgContainer {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#mainHolder .banner .imgContainer img.OGlogo {
   margin: 20px 10px 10px 30%;
   width: 40%;
+  display: inline-block;
+}
+
+#mainHolder .banner .imgContainer img.babyBear {
+  display: inline-block;
+}
+
+#mainHolder .banner .imgContainer img.text {
+  display: inline-block;
+  padding: 10px 0px 20px 0px;
+  z-index: 10;
+  margin-left: 40px;
+  margin-top: -115px;
+}
+
+#mainHolder .banner .imgContainer img.bear {
+  display: inline-block;
+  width: 60%;
+  padding: 5px 0px 20px 0px;
+  margin-top: 100px;
+  margin-left: -20px;
+  z-index: 1;
+}
+
+#mainHolder .banner .imgContainer img.mamaBear {
+  display: inline-block;
 }
 
 #mainHolder h1, #mainHolder h2, #mainHolder h3, #mainHolder h4, #mainHolder h5 {
@@ -7984,6 +8031,11 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .navigation * {
   padding: 0;
   margin: 0;
+}
+
+#mainHolder .navigation a.navAnchor {
+  height: 0;
+  width: 0;
 }
 
 #mainHolder .navigation .navBox .navbar {
@@ -8007,22 +8059,13 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   background-color: pink;
 }
 
-#mainHolder .contentholder .titleDescription, #mainHolder .contentholder .itemListHolder {
-  margin: 10px 0px;
-  color: black;
-}
-
 #mainHolder .contentholder .titleDescription {
-  padding: 35px 20px 0px;
-}
-
-#mainHolder .contentholder .titleDescription .title {
-  font-size: 2.5em;
+  padding: 10px 20px 0px;
 }
 
 #mainHolder .contentholder .titleDescription .description {
+  padding: 0;
   color: darkgray;
-  padding: 20px;
 }
 
 #mainHolder .contentholder div.holder {
@@ -8070,6 +8113,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   border: 5px solid #aee1c5;
   border-radius: 50%;
   margin: 10px;
+  margin-left: 25px;
   height: 75px;
   width: 75px;
   -webkit-box-shadow: 0px 3px 9px 2px rgba(0, 0, 0, 0.31);
@@ -8082,17 +8126,17 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder:nth-child(2n+0) .titleRow .title {
-  line-height: 75px;
-  padding-left: 10px;
   font-size: 30px;
-  text-align: center;
+  line-height: 75px;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder:nth-child(2n+0) .description {
   text-align: left;
   padding-left: 5%;
   width: 90%;
-  margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -8102,7 +8146,8 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder:nth-child(2n+0) .description ul li {
-  padding-left: 5%;
+  list-style-type: disc;
+  margin-left: 5%;
 }
 
 #mainHolder .contentholder div.holder:nth-child(2n+0) .titleDescription, #mainHolder .contentholder div.holder:nth-child(2n+0) .itemListHolder {
@@ -8132,6 +8177,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   border: 5px solid #d4c9f8;
   border-radius: 50%;
   margin: 10px;
+  margin-left: 25px;
   height: 75px;
   width: 75px;
   -webkit-box-shadow: 0px 3px 9px 2px rgba(0, 0, 0, 0.31);
@@ -8144,10 +8190,11 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder:nth-child(3n+0) .titleRow .title {
-  line-height: 75px;
-  padding-left: 10px;
   font-size: 30px;
-  text-align: center;
+  line-height: 75px;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder:nth-child(3n+0) .description {
@@ -8160,11 +8207,12 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder:nth-child(3n+0) .description h2 {
-  text-align: center;
+  text-align: left;
 }
 
 #mainHolder .contentholder div.holder:nth-child(3n+0) .description ul li {
-  padding-left: 5%;
+  list-style-type: disc;
+  margin-left: 5%;
 }
 
 #mainHolder .contentholder div.holder:nth-child(3n+0) .titleDescription, #mainHolder .contentholder div.holder:nth-child(3n+0) .itemListHolder {
@@ -8194,6 +8242,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   border: 5px solid #fc9f8d;
   border-radius: 50%;
   margin: 10px;
+  margin-left: 25px;
   height: 75px;
   width: 75px;
   -webkit-box-shadow: 0px 3px 9px 2px rgba(0, 0, 0, 0.31);
@@ -8206,10 +8255,11 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder:nth-child(4n+0) .titleRow .title {
-  line-height: 75px;
-  padding-left: 10px;
   font-size: 30px;
-  text-align: center;
+  line-height: 75px;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder:nth-child(4n+0) .description {
@@ -8222,7 +8272,12 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder:nth-child(4n+0) .description h2 {
-  text-align: center;
+  text-align: left;
+}
+
+#mainHolder .contentholder div.holder:nth-child(4n+0) .description ul li {
+  list-style-type: disc;
+  margin-left: 5%;
 }
 
 #mainHolder .contentholder div.holder:nth-child(4n+0) .titleDescription, #mainHolder .contentholder div.holder:nth-child(4n+0) .itemListHolder {
@@ -8261,6 +8316,11 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   text-align: center;
 }
 
+#mainHolder .contentholder div.holder:nth-child(5n+0) .row .description ul li {
+  list-style-type: disc;
+  margin-left: 5%;
+}
+
 #mainHolder .contentholder div.holder:nth-child(6n+0) {
   background: #fdccc450;
   border: 5px solid #fdccc4;
@@ -8286,6 +8346,11 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   text-align: center;
 }
 
+#mainHolder .contentholder div.holder:nth-child(6n+0) .row .description ul li {
+  list-style-type: disc;
+  margin-left: 5%;
+}
+
 #mainHolder .contentholder div.holder.phase1, #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear, #mainHolder .contentholder div.holder.newMamaExpectations {
   height: 400px;
 }
@@ -8297,22 +8362,32 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 
 #mainHolder .contentholder div.holder.welcomeTo {
   background: white;
-  border: 5px solid lightgray;
+  border: 5px solid #b7b7b7;
 }
 
 #mainHolder .contentholder div.holder.welcomeTo::before {
   opacity: 1;
-  background-image: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/Mama Bear Revised.png");
+}
+
+#mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear .row h4.title {
+  font-size: 30px;
+  line-height: 75px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder.newMamaExpectations .row h4.title {
   font-size: 30px;
   line-height: 75px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms {
   background: white;
-  border: 5px solid lemonchiffon;
+  border: 5px solid #FDB151;
   padding: 0 20px 0 20px;
 }
 
@@ -8323,27 +8398,33 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.documentsAndPrograms h4.title {
   font-size: 30px;
   line-height: 75px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 20px;
-  border: 1px solid aqua;
+  display: block;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4:hover {
-  background-color: lemonchiffon;
-  color: #fff;
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 :hover {
+  color: white;
+  fill: red;
+  stroke: pink;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a {
   text-decoration: none;
-  color: #000;
+  color: black;
+  display: block;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a:hover {
   color: pink;
+  fill: pink;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i {
@@ -8354,11 +8435,14 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i svg {
   width: 100px;
   height: 100px;
+  fill: #FDB151;
+  stroke: #FDB151;
 }
 
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i:hover {
+#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i svg:hover {
   color: white;
-  fill: pink;
+  fill: red;
+  stroke: pink;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a h2 {
@@ -8377,57 +8461,35 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 20px;
-  border: 1px solid aqua;
-}
-
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 i {
-  width: 140px;
-  height: 140px;
-}
-
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 h2 {
-  text-align: center;
-  font-size: 25px;
-}
-
-#mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-  text-align: center;
-  font-size: 14px;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-3 {
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 20px;
-  border: 1px solid aqua;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-2 {
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 20px;
-  border: 1px solid aqua;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-xs-1 {
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 20px;
-  border: 1px solid aqua;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-2 {
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 20px;
-  border: 1px solid aqua;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts {
   background: white;
-  border: 5px solid aqua;
+  border: 5px solid #fff682;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts::before {
@@ -8437,12 +8499,13 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.regionalContacts .row h4.title {
   font-size: 30px;
   line-height: 75px;
-  padding-left: 10px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts .row .mapHolder {
   margin: 0 auto;
-  border: 1px solid white;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts .row .mapHolder .usMap svg {
@@ -8457,9 +8520,69 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   width: 100%;
 }
 
-#mainHolder .contentholder div.holder.regionalContacts .row h4 {
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer {
+  max-width: 900px;
+  margin: 30px auto;
+  position: relative;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer h4 {
   font-size: 30px;
-  line-height: 75px;
+  text-align: center;
+  padding-left: 10px;
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+  padding-top: 20px;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  position: relative;
+  z-index: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table thead tr {
+  border-radius: 10px;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table thead tr th {
+  background: #fff682;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table tbody {
+  margin: 20px;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table tbody tr {
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table tbody tr td.region {
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  width: 50%;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table tbody tr td.contact {
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  width: 50%;
+}
+
+#mainHolder .contentholder div.holder.regionalContacts .row .innerContainer table tbody tr:hover {
+  background-color: #fff68250;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts .row ul {
@@ -8477,8 +8600,9 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.other {
-  background: white;
-  border: 5px solid lightgray;
+  color: white;
+  background: lightgray;
+  border: 5px solid gray;
 }
 
 #mainHolder .contentholder div.holder.other::before {
@@ -8488,15 +8612,13 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.other .row h4 {
   font-size: 30px;
   line-height: 75px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 #mainHolder .contentholder div.holder div.imageHolder {
   height: 100%;
   width: 100%;
   overflow: hidden;
-}
-
-.faq {
-  background-image: url("sites/TEKLoop/divisionsandservices/divisions/pageFiles/images/icon-ship.svg");
-  color: blue;
 }
