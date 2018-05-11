@@ -8046,17 +8046,67 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
   width: 100%;
 }
 
-#mainHolder #myNavbar ul li {
+#mainHolder #myNavbar ul li.overview {
   width: 20%;
+  text-align: center;
+}
+
+#mainHolder #myNavbar ul li.overview a {
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#mainHolder #myNavbar ul li.responsibilitiesAndExpectations {
+  width: 50%;
+  text-align: center;
+}
+
+#mainHolder #myNavbar ul li.responsibilitiesAndExpectations a {
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#mainHolder #myNavbar ul li.documentsAndPrograms {
+  width: 20%;
+}
+
+#mainHolder #myNavbar ul li.documentsAndPrograms a {
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#mainHolder #myNavbar ul li.regionalContacts {
+  width: 20%;
+}
+
+#mainHolder #myNavbar ul li.regionalContacts a {
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#mainHolder #myNavbar ul li.contact {
+  width: 10%;
+}
+
+#mainHolder #myNavbar ul li.contact a {
+  font-family: "mahoni_free_personal_useRg", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 #mainHolder #myNavbar ul li a {
   font-family: "mahoni_free_personal_useRg", sans-serif;
   font-size: 20px;
+  line-height: 24px;
+  color: white;
 }
 
-#mainHolder #myNavbar ul li a:active {
-  background-color: pink;
+#mainHolder #myNavbar ul li a:hover {
+  color: #FDB151;
 }
 
 #mainHolder .contentholder .titleDescription {
@@ -8418,7 +8468,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a {
   text-decoration: none;
-  color: black;
+  color: #FDB151;
   display: block;
 }
 
@@ -8440,9 +8490,9 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i svg:hover {
-  color: white;
-  fill: red;
-  stroke: pink;
+  color: #7FB9E5;
+  fill: #7FB9E5;
+  stroke: #7FB9E5;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a h2 {
@@ -8600,9 +8650,10 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.other {
-  color: white;
-  background: lightgray;
+  color: black;
+  background: white;
   border: 5px solid gray;
+  padding-bottom: 20px;
 }
 
 #mainHolder .contentholder div.holder.other::before {
