@@ -8461,8 +8461,8 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 :hover {
-  color: white;
-  fill: red;
+  color: pink;
+  fill: pink;
   stroke: pink;
 }
 
