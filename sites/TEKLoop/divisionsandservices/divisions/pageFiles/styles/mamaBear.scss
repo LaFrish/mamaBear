@@ -127,9 +127,11 @@ $montFont: 'Montserrat', sans-serif;
 
   }
   .banner{
-    background-color: lightgray;
+    background-color: #dedede;
     // border: 5px solid gray;
     display: inline-block;
+    border: 5px solid lightgray;
+
 
     height: 400px;
     width: 100%;

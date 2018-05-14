@@ -7975,8 +7975,9 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .banner {
-  background-color: lightgray;
+  background-color: #dedede;
   display: inline-block;
+  border: 5px solid lightgray;
   height: 400px;
   width: 100%;
 }
