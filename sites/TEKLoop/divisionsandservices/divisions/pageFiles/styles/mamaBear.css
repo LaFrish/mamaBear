@@ -8402,7 +8402,7 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.phase1, #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear, #mainHolder .contentholder div.holder.newMamaExpectations {
-  height: 400px;
+  height: 380px;
 }
 
 #mainHolder .contentholder div.holder.phase1 div[class^="col"], #mainHolder .contentholder div.holder.phase2 div[class^="col"], #mainHolder .contentholder div.holder.phase3 div[class^="col"], #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear div[class^="col"], #mainHolder .contentholder div.holder.newMamaExpectations div[class^="col"] {
@@ -8461,9 +8461,9 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 :hover {
-  color: pink;
-  fill: pink;
-  stroke: pink;
+  color: #7FB9E5;
+  fill: #7FB9E5;
+  stroke: #7FB9E5;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a {
@@ -8473,8 +8473,8 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a:hover {
-  color: pink;
-  fill: pink;
+  color: #7FB9E5;
+  fill: #7FB9E5;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i {

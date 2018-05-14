@@ -748,7 +748,7 @@ margin-top: -115px;
       }
 
       &.phase1, &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
-          height: 400px;
+          height: 380px;
           div[class^="col"] {
             padding: 0;
             margin: 0;
@@ -853,15 +853,15 @@ margin-top: -115px;
             padding: 20px;
             display: block;
             :hover{
-              color: pink;
-              fill: pink;
-              stroke: pink;
+              color: #7FB9E5;
+              fill: #7FB9E5;
+              stroke: #7FB9E5;
 
             }
             //
             // &:hover {
-            //   color: pink;
-            //   fill: pink;
+            //   color: #7FB9E5;
+            //   fill: #7FB9E5;
             //
             // }
             a{
@@ -870,8 +870,8 @@ margin-top: -115px;
               // color: black;
               display: block;
               &:hover{
-                color: pink;
-                fill: pink;
+                color: #7FB9E5;
+                fill: #7FB9E5;
               }
               i{
                 width: 140px;
