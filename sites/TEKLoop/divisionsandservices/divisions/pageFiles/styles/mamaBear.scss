@@ -853,25 +853,25 @@ margin-top: -115px;
             padding: 20px;
             display: block;
             :hover{
-              color: #7FB9E5;
-              fill: #7FB9E5;
-              stroke: #7FB9E5;
+              color: #FDB151;
+              fill: #FDB151;
+              stroke: #FDB151;
 
             }
             //
             // &:hover {
-            //   color: #7FB9E5;
-            //   fill: #7FB9E5;
+            //   color: #FDB151;
+            //   fill: #FDB151;
             //
             // }
             a{
               text-decoration: none;
-              color: #FDB151;
-              // color: black;
+              // color: #FDB151;
+              color: black;
               display: block;
               &:hover{
-                color: #7FB9E5;
-                fill: #7FB9E5;
+                color: #FDB151;
+                fill: #FDB151;
               }
               i{
                 width: 140px;
@@ -880,14 +880,14 @@ margin-top: -115px;
                 svg{
                   width: 100px;
                   height: 100px;
-                  fill: #FDB151;
-                  stroke: #FDB151;
+                  fill: #000000;
+                  stroke: #000000;
 
 
                 &:hover{
-                    color: #7FB9E5;
-                    fill: #7FB9E5;
-                    stroke: #7FB9E5;
+                    color: #FDB151;
+                    fill: #FDB151;
+                    stroke: #FDB151;
                   }
                 }
               }

@@ -8461,20 +8461,20 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 :hover {
-  color: #7FB9E5;
-  fill: #7FB9E5;
-  stroke: #7FB9E5;
+  color: #FDB151;
+  fill: #FDB151;
+  stroke: #FDB151;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a {
   text-decoration: none;
-  color: #FDB151;
+  color: black;
   display: block;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a:hover {
-  color: #7FB9E5;
-  fill: #7FB9E5;
+  color: #FDB151;
+  fill: #FDB151;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i {
@@ -8485,14 +8485,14 @@ $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i svg {
   width: 100px;
   height: 100px;
-  fill: #FDB151;
-  stroke: #FDB151;
+  fill: #000000;
+  stroke: #000000;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a i svg:hover {
-  color: #7FB9E5;
-  fill: #7FB9E5;
-  stroke: #7FB9E5;
+  color: #FDB151;
+  fill: #FDB151;
+  stroke: #FDB151;
 }
 
 #mainHolder .contentholder div.holder.documentsAndPrograms .row .col-lg-4 a h2 {
