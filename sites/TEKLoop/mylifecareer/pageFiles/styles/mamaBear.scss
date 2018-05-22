@@ -463,6 +463,12 @@ $montFont: 'Montserrat', sans-serif;
         padding-left: 25px;
         padding-top:10px;
       }
+      h2{
+        a {
+          color: inherit;
+
+        }
+      }
       &::before{
         content: "";
         height: 100%;
