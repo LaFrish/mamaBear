@@ -6,8 +6,8 @@ $backgroundImage3: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingI
 $backgroundImage4: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default4.jpg);
 $backgroundImage5: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default5.jpg);
 $backgroundImage6: url(/sites/TEKLoop/divisionsandservices/divisions/PublishingImages/Pages/familiesAtTek/default6.jpg); */
-@import "contentPage0.scss";
-
+// TEKLoop/mylifecareer/pageFiles/styles/contentPage0.scss
+// @import "contentPage0.scss";
 @font-face {
     font-family: 'mahoni_free_personal_useRg';
     src: url('mahoni_free_personal_use-webfont.woff2') format('woff2'),
@@ -52,7 +52,7 @@ $navHeight: 370px;
 $scriptFont: 'mahoni_free_personal_useRg', sans-serif;
 $montFont: 'Montserrat', sans-serif;
 
-@import "contentPage0.scss";
+
 
 
 #mainHolder {
