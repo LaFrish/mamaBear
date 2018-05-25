@@ -8664,6 +8664,16 @@
   background-size: cover;
 }
 
+usMap {
+  padding: 2%;
+}
+
+svg {
+  margin: auto;
+  max-height: 100vh;
+  max-width: 100%;
+}
+
 @media (min-width: 768px) {
   #mainHolder p {
     font-size: 16px;

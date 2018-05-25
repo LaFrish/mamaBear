@@ -1178,7 +1178,15 @@ $montFont: 'Montserrat', sans-serif;
 
   }
 }
+usMap {
+  padding: 2%;
+}
 
+svg {
+  margin: auto;
+  max-height: 100vh;
+  max-width: 100%;
+}
 
 .space50{
   // height: 20px;
