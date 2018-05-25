@@ -8353,6 +8353,10 @@
   margin-top: 25px;
 }
 
+#mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear {
+  height: auto;
+}
+
 #mainHolder .contentholder div.holder.welcomeTo {
   background: white;
   border: 5px solid #b7b7b7;
@@ -8361,7 +8365,7 @@
 
 #mainHolder .contentholder div.holder.welcomeTo::before {
   content: "";
-  background-image: url("../../PublishingImages/Pages/TEK_Pattern_small.svg");
+  background-image: url("../../pageFiles/images/TEK_Pattern_small.svg");
   height: 300px;
   width: 300px;
   position: absolute;
@@ -8379,15 +8383,15 @@
 }
 
 #mainHolder .contentholder div.holder.phase1 .imageHolder {
-  background-image: url(../../PublishingImages/Pages/MamaBear/phase1.png);
+  background-image: url(../../pageFiles/images/MamaBear/phase1.png);
 }
 
 #mainHolder .contentholder div.holder.phase2 .imageHolder {
-  background-image: url(../../PublishingImages/Pages/MamaBear/phase2.png);
+  background-image: url(../../pageFiles/images/MamaBear/phase2.png);
 }
 
 #mainHolder .contentholder div.holder.phase3 .imageHolder {
-  background-image: url(../../PublishingImages/Pages/MamaBear/phase3.png);
+  background-image: url(../../pageFiles/images/MamaBear/phase3.png);
 }
 
 #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear .row h4.title {
@@ -8631,7 +8635,7 @@
 
 #mainHolder .contentholder div.holder.other::before {
   content: "";
-  background-image: url("../../PublishingImages/Pages/TEK_Pattern_small.svg");
+  background-image: url("../../pageFiles/images/TEK_Pattern_small.svg");
   height: 300px;
   width: 300px;
   position: absolute;
@@ -8672,7 +8676,7 @@
   #mainHolder .contentholder div.holder.phase1 {
     height: 475px;
   }
-  #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear, #mainHolder .contentholder div.holder.newMamaExpectations {
+  #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.newMamaExpectations {
     height: 375px;
   }
 }
@@ -8686,7 +8690,7 @@
     height: 325px;
     width: 100%;
   }
-  #mainHolder .contentholder div.holder.phase1, #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear, #mainHolder .contentholder div.holder.newMamaExpectations {
+  #mainHolder .contentholder div.holder.phase1, #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.newMamaExpectations {
     height: 470px;
   }
 }
@@ -8700,7 +8704,7 @@
     height: 400px;
     width: 100%;
   }
-  #mainHolder .contentholder div.holder.phase1, #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.responsibilitiesOfTheMamaBear, #mainHolder .contentholder div.holder.newMamaExpectations {
+  #mainHolder .contentholder div.holder.phase1, #mainHolder .contentholder div.holder.phase2, #mainHolder .contentholder div.holder.phase3, #mainHolder .contentholder div.holder.newMamaExpectations {
     height: 400px;
   }
 }

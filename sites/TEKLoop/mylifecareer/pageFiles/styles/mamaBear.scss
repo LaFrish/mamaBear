@@ -11,14 +11,14 @@
 
 
 // ****IMAGES****
-$backgroundImage1: url("sites/TEKLoop/mylifecareer/PublishingImages/Pages/MamaBear/Mama Bear Revised.png");
-$backgroundImage2: url("sites/TEKLoop/mylifecareer/PublishingImages/Pages/MamaBear/phase1.png" );
-$backgroundImage3: url("sites/TEKLoop/mylifecareer/PublishingImages/Pages/MamaBear/phase2.png" );
-$backgroundImage4: url( "sites/TEKLoop/mylifecareer/PublishingImages/Pages/MamaBear/phase3.png");
+$backgroundImage1: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/Mama Bear Revised.png");
+$backgroundImage2: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/phase1.png" );
+$backgroundImage3: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/phase2.png" );
+$backgroundImage4: url( "sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/phase3.png");
 $backgroundImage5: url( );
 $backgroundImage6: url( );
-$tekPatternBackground: url("../../PublishingImages/Pages/TEK_Pattern_small.svg");
-//$tekPatternBackground: url("sites/TEKLoop/mylifecareer/PublishingImages/Pages/MamaBear/TEK_Pattern_small.svg");
+$tekPatternBackground: url("../../pageFiles/images/TEK_Pattern_small.svg");
+//$tekPatternBackground: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/TEK_Pattern_small.svg");
 $contact1: url( );
 $iconSheet: url( );
 
@@ -356,7 +356,7 @@ $montFont: 'Montserrat', sans-serif;
         &.responsibilitiesAndExpectations{
 
         }
-        &.documentsAndPrograms{ 
+        &.documentsAndPrograms{
 
         }
         &.regionalContacts{
@@ -716,6 +716,9 @@ $montFont: 'Montserrat', sans-serif;
             }
           }
       }
+      &.responsibilitiesOfTheMamaBear {
+        height: auto;
+      }
       &.welcomeTo {
         background: white;
         border: 5px solid #b7b7b7;
@@ -759,7 +762,7 @@ $montFont: 'Montserrat', sans-serif;
 
         }
         .imageHolder {
-          background-image: url(../../PublishingImages/Pages/MamaBear/phase1.png);
+          background-image: url(../../pageFiles/images/MamaBear/phase1.png);
         }
       }
       &.phase2 {
@@ -769,7 +772,7 @@ $montFont: 'Montserrat', sans-serif;
           // background-image: $backgroundImage3;
         }
         .imageHolder {
-          background-image: url(../../PublishingImages/Pages/MamaBear/phase2.png);
+          background-image: url(../../pageFiles/images/MamaBear/phase2.png);
         }
       }
       &.phase3 {
@@ -780,7 +783,7 @@ $montFont: 'Montserrat', sans-serif;
           // background-image: $backgroundImage4;
         }
         .imageHolder {
-          background-image: url(../../PublishingImages/Pages/MamaBear/phase3.png);
+          background-image: url(../../pageFiles/images/MamaBear/phase3.png);
         }
       }
       &.responsibilitiesOfTheMamaBear {
@@ -1199,7 +1202,7 @@ $montFont: 'Montserrat', sans-serif;
         &.phase1 {
           height: 475px;
         }
-        &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
+        &.phase2, &.phase3, &.newMamaExpectations {
           height: 375px;
         }
       }
@@ -1220,7 +1223,7 @@ $montFont: 'Montserrat', sans-serif;
     }
     .contentholder{
       div.holder {
-        &.phase1, &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
+        &.phase1, &.phase2, &.phase3, &.newMamaExpectations {
           height: 470px;
         }
 
@@ -1243,7 +1246,7 @@ $montFont: 'Montserrat', sans-serif;
     }
     .contentholder{
       div.holder {
-        &.phase1, &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
+        &.phase1, &.phase2, &.phase3, &.newMamaExpectations {
           height: 400px;
         }
 
