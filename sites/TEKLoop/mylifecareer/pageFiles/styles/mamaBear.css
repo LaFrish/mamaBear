@@ -6,9 +6,9 @@ $backgroundImage4: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
 $backgroundImage5: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default5.jpg);
 $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default6.jpg); */
 /* testing */
-@import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css";
+/* @import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"; */
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-@import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css";
+/* @import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"; */
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 #mainHolder {
   /*!
