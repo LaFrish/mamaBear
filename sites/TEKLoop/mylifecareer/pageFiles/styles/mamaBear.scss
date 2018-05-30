@@ -1,8 +1,17 @@
 /* testing */
 
+/*$backgroundImage1: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default1.jpg);
+$backgroundImage2: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default2.jpg);
+$backgroundImage3: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default3.jpg);
+$backgroundImage4: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default4.jpg);
+$backgroundImage5: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default5.jpg);
+$backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default6.jpg); */
+@import "contentPage0.scss";
+
+
 @font-face {
     font-family: 'mahoni_free_personal_useRg';
-    src:url('/sites/TEKLoop/Fonts/mahoni_free_personal_use-webfont.woff') format('woff');
+    src: url('mahoni_free_personal_use-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -11,36 +20,29 @@
 
 
 // ****IMAGES****
-$backgroundImage1: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/Mama Bear Revised.png");
-$backgroundImage2: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/phase1.png" );
-$backgroundImage3: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/phase2.png" );
-$backgroundImage4: url( "sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/phase3.png");
+$backgroundImage1: url( "sites/TEKLoop/mylifecareer/pageFiles/images/Mama Bear Revised.png");
+$backgroundImage2: url("sites/TEKLoop/mylifecareer/pageFiles/images/phase1.png" );
+$backgroundImage3: url("sites/TEKLoop/mylifecareer/pageFiles/images/phase2.png" );
+$backgroundImage4: url( "sites/TEKLoop/mylifecareer/pageFiles/images/phase3.png");
 $backgroundImage5: url( );
 $backgroundImage6: url( );
-$tekPatternBackground: url("../../pageFiles/images/TEK_Pattern_small.svg");
-//$tekPatternBackground: url("sites/TEKLoop/mylifecareer/pageFiles/images/MamaBear/TEK_Pattern_small.svg");
 $contact1: url( );
 $iconSheet: url( );
 
 // ****COLORS****
 $darkBlue: #0a4873;
 $darkerBlue: #052135;
-//$lightBlue: #c9e8e550;
-$lightBlue: #eef8f7;
+$lightBlue: #c9e8e550;
 $darkerLightBlue: #c9e8e5;
-//$mint: #aee1c550;
-$mint: #e6f6ed;
+$mint: #aee1c550;
 $darkMint: #aee1c5;
-//$lavender: #d4c9f850;
-$lavender: #f2eefd;
+$lavender: #d4c9f850;
 $darkLavender: #d4c9f8;
 $yellow: #fff68250;
 $darkYellow: #fff682;
-//$peach: #fc9f8d50;
-$peach: #fee1db;
+$peach: #fc9f8d50;
 $darkPeach:#fc9f8d;
-//$pink: #fdccc450;
-$pink: #feefec;
+$pink: #fdccc450;
 $darkPink: #fdccc4;
 
 $navHeight: 370px;
@@ -59,8 +61,8 @@ $montFont: 'Montserrat', sans-serif;
   box-shadow: 0px 0px 5px 5px #dcdcdc;
   font-family: $montFont;
   p{
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   .row-eq-height {
@@ -101,16 +103,16 @@ $montFont: 'Montserrat', sans-serif;
     a {
 
       &::before {
-        content: " ";
+        // content: "\e093";
 
-        color: transparent;
-        padding:0;
-        font-size: 0px;
-        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        color: white;
+        padding: 5px 3px 3px;
+        font-size: 40px;
+        text-shadow: 0px 2px 2px rgba(150, 150, 150, 0.5);
       }
       &:hover {
         // color: red;
-        text-decoration: none;
+
         &::before {
 
           text-shadow: 0px 1px 1px rgba(150, 150, 150, 0.6);
@@ -126,28 +128,17 @@ $montFont: 'Montserrat', sans-serif;
 
   }
   .banner{
-    background-color: lightgray;
+    background-color: #dedede;
     // border: 5px solid gray;
-    display: block;
+    display: inline-block;
+    border: 5px solid lightgray;
 
-    height: 200px;
+
+    height: 400px;
     width: 100%;
     .imgContainer{
       padding-top: 20px;
       padding-left: 20px;
-      height: 100%;
-      width: 100%;
-      position: relative;
-      .tekLogo {
-        position: absolute;
-        right: 0px;
-        top: 5px;
-        opacity: 0.5;
-        width: 45%;
-        img {
-          width: 100%;
-        }
-      }
       img.OGlogo{
         margin: 20px 10px 10px 30%;
         width: 40%;
@@ -160,20 +151,28 @@ $montFont: 'Montserrat', sans-serif;
 
 
       img.text{
-        padding: 10px 0px 20px 0px;
-        z-index: 10;
-        margin-left: 5%;
-        margin-top: -2%;
-        width: 45%
+        // display: inline-block;
+        // width: 10%;
+        // padding: 10px 0px 20px 0px;
+        // margin-top: -105px;
+        // margin-left: 50px;
+        // z-index: 10;
 
+      display: inline-block;
+      // width: 25%;
+      padding: 10px 0px 20px 0px;
+
+      z-index: 10;
+      margin-left: 40px;
+margin-top: -115px;
 
       }
       img.bear{
-
+        display: inline-block;
         width: 60%;
         padding: 5px 0px 20px 0px;
-        margin-top: -15%;
-        margin-left: 42%;
+        margin-top: 100px;
+        margin-left: -20px;
         z-index: 1;
       }
       img.mamaBear{
@@ -195,7 +194,6 @@ $montFont: 'Montserrat', sans-serif;
     font-family: $scriptFont;
     font-weight: bold;
     text-align: left;
-    color: #222;
   }
 
   .navigation {
@@ -335,39 +333,73 @@ $montFont: 'Montserrat', sans-serif;
     ul{
       width: 100%;
       // display: inline-flex;
-      li{
+      li.overview{
+        width: 20%;
         text-align: center;
-        margin: 0px 10px;
+        // display: inline-flex;
         a{
           // display: inline-flex;
-          //font-family: $scriptFont;
-          font-size: 22px;
-          font-weight: bold;
+          font-family: $scriptFont;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      li.responsibilitiesAndExpectations{
+        width: 50%;
+        text-align: center;
+        // display: inline-flex;
+        a{
+          // display: inline-flex;
+          font-family: $scriptFont;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      li.documentsAndPrograms{
+        width: 20%;
+        // display: inline-flex;
+        a{
+          // display: inline-flex;
+          font-family: $scriptFont;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      li.regionalContacts{
+        width: 20%;
+        // display: inline-flex;
+        a{
+          // display: inline-flex;
+          font-family: $scriptFont;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      li.contact{
+        width: 10%;
+        // display: inline-flex;
+        a{
+          // display: inline-flex;
+          font-family: $scriptFont;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      li{
+
+
+        a{
+
+          font-family: $scriptFont;
+          font-size: 20px;
           line-height: 24px;
           color: white;
           &:hover{
             color: #FDB151;
           }
-
-        }
-        &.overview{
-
-        }
-        &.responsibilitiesAndExpectations{
-
-        }
-        &.documentsAndPrograms{
-
-        }
-        &.regionalContacts{
-
-        }
-        &.contact{
-
         }
 
       }
-
     }
   }
 
@@ -381,12 +413,11 @@ $montFont: 'Montserrat', sans-serif;
 
       .title {
         // font-size: 2.5em;
-        color: #222;
 
       }
       .description {
         padding: 0;
-        color: #676666;
+        color: darkgray;
 
 
       }
@@ -438,37 +469,6 @@ $montFont: 'Montserrat', sans-serif;
         position: relative;
         z-index: 2;
       }
-      .sticker{
-        background-color: #fff;
-        border: 5px solid white;
-        border-radius: 50%;
-        margin: 10px;
-        margin-left: 25px;
-        height: 95px;
-        width: 95px;
-        -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
-        -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
-        box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
-        color: #000;
-        font-family: $scriptFont;
-        font-size: 22px;
-        padding: 14px 10px 0px 8px;
-        display: block;
-        flex-shrink: 0;
-      }
-      .title{
-        font-size: 30px;
-        line-height: 45px;
-        text-align: left;
-        padding-left: 25px;
-        padding-top:10px;
-      }
-      h2{
-        a {
-          color: inherit;
-
-        }
-      }
       &::before{
         content: "";
         height: 100%;
@@ -500,11 +500,28 @@ $montFont: 'Montserrat', sans-serif;
 
           .sticker{
             // background: $mint;
-            border-color: $darkMint;
+            background-color: #fff;
+            border: 5px solid $darkMint;
+            border-radius: 50%;
+            margin: 10px;
+            margin-left: 25px;
+            height: 75px;
+            width: 75px;
+            -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            color: #000;
+            font-family: $scriptFont;
+            font-size: 20px;
+            padding: 14px 10px 0px 8px;
 
           }
           .title{
-
+            font-size: 30px;
+            line-height: 75px;
+            text-align: left;
+            padding-left: 25px;
+            padding-top:10px;
           }
         }
         .description{
@@ -536,9 +553,8 @@ $montFont: 'Montserrat', sans-serif;
         }
         .imageHolder{
           border-left: 5px solid $darkMint;
-          img{
-            border-left: 0px solid $darkMint;
-            //width: 100%;
+        img{
+          width: 100%;
           // height: 340px;
           }
         }
@@ -552,10 +568,27 @@ $montFont: 'Montserrat', sans-serif;
           width: 100%;
 
           .sticker{
-            border-color: $darkLavender;
+            background-color: #fff;
+            border: 5px solid $darkLavender;
+            border-radius: 50%;
+            margin: 10px;
+            margin-left: 25px;
+            height: 75px;
+            width: 75px;
+            -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            color: #000;
+            font-family: $scriptFont;
+            font-size: 20px;
+            padding: 14px 10px 0px 8px;
           }
           .title{
-
+            font-size: 30px;
+            line-height: 75px;
+            text-align: left;
+            padding-left: 25px;
+            padding-top:10px;
           }
         }
         .description{
@@ -588,8 +621,7 @@ $montFont: 'Montserrat', sans-serif;
           .imageHolder{
             border-right: 5px solid $darkLavender;
             img{
-              border-right: 0px solid $darkLavender;
-              //width: 100%;
+              width: 100%;
               // height: 340px;
             }
           }
@@ -601,11 +633,28 @@ $montFont: 'Montserrat', sans-serif;
           display: inline-flex;
           width: 100%;
             .sticker{
-               border-color: $darkPeach;
+            background-color: #fff;
+            border: 5px solid $darkPeach;
+            border-radius: 50%;
+            margin: 10px;
+            margin-left: 25px;
+            height: 75px;
+            width: 75px;
+            -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.31);
+            color: #000;
+            font-family: $scriptFont;
+            font-size: 20px;
+            padding: 14px 10px 0px 8px;
 
           }
           .title{
-
+            font-size: 30px;
+            line-height: 75px;
+            text-align: left;
+            padding-left: 25px;
+            padding-top:10px;
           }
         }
         .description{
@@ -633,9 +682,8 @@ $montFont: 'Montserrat', sans-serif;
         }
         .imageHolder{
           border-left: 5px solid $darkPeach;
-          img{
-            border-left: 0px solid $darkPeach;
-          //width: 100%;
+        img{
+          width: 100%;
           }
         }
       }
@@ -644,8 +692,9 @@ $montFont: 'Montserrat', sans-serif;
         border: 5px solid $darkerLightBlue;
           .row{
             .title{
-
+              line-height: 75px;
               padding-left: 10px;
+              font-size: 30px;
               text-align: center;
             }
             .description{
@@ -673,8 +722,9 @@ $montFont: 'Montserrat', sans-serif;
         border: 5px solid $darkPink;
         .row{
           .title{
-
+            line-height: 75px;
             padding-left: 10px;
+            font-size: 30px;
             text-align: center;
           }
 
@@ -701,58 +751,21 @@ $montFont: 'Montserrat', sans-serif;
       }
 
       &.phase1, &.phase2, &.phase3, &.responsibilitiesOfTheMamaBear, &.newMamaExpectations {
-          height: 400px;
-          overflow: hidden;
+          height: 380px;
           div[class^="col"] {
             padding: 0;
             margin: 0;
           }
-          h2 {
-            font-size: 26px;
-          }
-          h4 {
-            &.title {
-              margin-top: 25px;
-            }
-          }
-      }
-      &.responsibilitiesOfTheMamaBear {
-        height: auto;
       }
       &.welcomeTo {
         background: white;
         border: 5px solid #b7b7b7;
-        position: relative;
 
         &::before {
-          content: "";
-          background-image: $tekPatternBackground;
-          height: 300px;
-          width: 300px;
-          position: absolute;
-          top: -125px;
-          right: -82px;
-          opacity: .5;
-
-
-          svg {
-
-          }
-
+          opacity: 1;
           // background-image: $backgroundImage1 ;
         }
 
-      }
-      &.phase1, &.phase2, &.phase3{
-        .row {
-          height: 100%;
-          div[class^="col"] {
-            height: 100%;
-          }
-          .imageHolder {
-
-          }
-        }
       }
       &.phase1 {
         &::before {
@@ -761,18 +774,12 @@ $montFont: 'Montserrat', sans-serif;
 
 
         }
-        .imageHolder {
-          background-image: url(../../pageFiles/images/MamaBear/phase1.png);
-        }
       }
       &.phase2 {
 
         &::before {
 
           // background-image: $backgroundImage3;
-        }
-        .imageHolder {
-          background-image: url(../../pageFiles/images/MamaBear/phase2.png);
         }
       }
       &.phase3 {
@@ -782,9 +789,6 @@ $montFont: 'Montserrat', sans-serif;
 
           // background-image: $backgroundImage4;
         }
-        .imageHolder {
-          background-image: url(../../pageFiles/images/MamaBear/phase3.png);
-        }
       }
       &.responsibilitiesOfTheMamaBear {
         &::before {
@@ -792,9 +796,11 @@ $montFont: 'Montserrat', sans-serif;
         }
           .row{
             h4.title{
-
+              font-size: 30px;
+              line-height: 75px;
+              text-align: left;
               padding-left: 50px;
-
+              padding-top:10px;
             }
           // .description{
           //   p{
@@ -810,9 +816,11 @@ $montFont: 'Montserrat', sans-serif;
 
         .row{
           h4.title{
-
+            font-size: 30px;
+            line-height: 75px;
+            text-align: left;
             padding-left: 50px;
-
+            padding-top:10px;
 
           }
 
@@ -847,30 +855,10 @@ $montFont: 'Montserrat', sans-serif;
             text-align: center;
             padding: 20px;
             display: block;
-            &:hover{
+            :hover{
               color: #FDB151;
               fill: #FDB151;
               stroke: #FDB151;
-              h2{
-                color: #FDB151;
-
-              }
-              a{
-
-                color: #FDB151;
-                fill: #FDB151;
-
-                i{
-
-
-                  svg{
-                      color: #FDB151;
-                      fill: #FDB151;
-                      stroke: #FDB151;
-
-                  }
-                }
-              }
 
             }
             //
@@ -909,8 +897,7 @@ $montFont: 'Montserrat', sans-serif;
               h2{
                 // font-weight: 400;
                 text-align: center;
-                font-size: 22px;
-                font-family: $montFont;
+                font-size: 25px;
 
               }
               p{
@@ -969,9 +956,11 @@ $montFont: 'Montserrat', sans-serif;
 
           // .col-lg-12.col-md-12.col-sm-12.col-xs-12{
             h4.title{
-
+              font-size: 30px;
+              line-height: 75px;
+              text-align: left;
               padding-left: 50px;
-
+              padding-top:10px;
             }
             p{
 
@@ -1011,7 +1000,7 @@ $montFont: 'Montserrat', sans-serif;
           // }
         }
         .row{
-          //width: 100%;
+          width: 100%;
           // background: lemonchiffon;
           .innerContainer{
             // flex: 1 0 auto;
@@ -1122,30 +1111,14 @@ $montFont: 'Montserrat', sans-serif;
       &.other  {
         color: black;
         background: white;
-        border: 5px solid #021a32;
+        border: 5px solid gray;
         padding-bottom: 20px;
-        height: 300px;
-        overflow-x: hidden;
         &::before {
-          content: "";
-          background-image: $tekPatternBackground;
-          height: 300px;
-          width: 300px;
-          position: absolute;
-          top: -125px;
-          right: -82px;
-          opacity: .5;
 
-
-          svg {
-
-          }
-
-          // background-image: $backgroundImage1 ;
+          background-image: $backgroundImage6;
         }
         .row{
           // .col-lg-12 .col-md-12 .col-sm-12 .col-xs-12{
-          padding: 15px;
             h4{
               font-size: 30px;
               line-height: 75px;
@@ -1164,8 +1137,6 @@ $montFont: 'Montserrat', sans-serif;
         height: 100%;
         width: 100%;
         overflow: hidden;
-        background: url() no-repeat center 0px transparent;
-        background-size: cover;
         // background-color: transparent;
         // border: 5px solid darkgray;
 
@@ -1178,7 +1149,9 @@ $montFont: 'Montserrat', sans-serif;
 
   }
 }
-usMap {
+
+
+.usMap {
   padding: 2%;
 }
 
@@ -1193,72 +1166,14 @@ svg {
 }
 
 
-
 @media (min-width: 768px) {
-  #mainHolder {
-    p{
-      font-size: 16px;
-      line-height: 22px;
-    }
-    .banner{
 
-      height: 275px;
-      width: 100%;
-    }
-    .contentholder{
-      div.holder {
-        &.phase1 {
-          height: 475px;
-        }
-        &.phase2, &.phase3, &.newMamaExpectations {
-          height: 375px;
-        }
-      }
-    }
-  }
 }
 
 @media (min-width: 992px) {
-  #mainHolder {
-    p{
-      font-size: 18px;
-      line-height: 24px;
-    }
-    .banner{
 
-      height: 325px;
-      width: 100%;
-    }
-    .contentholder{
-      div.holder {
-        &.phase1, &.phase2, &.phase3, &.newMamaExpectations {
-          height: 470px;
-        }
-
-      }
-    }
-  }
 }
 
 @media (min-width: 1200px) {
-  #mainHolder {
 
-    p{
-      font-size: 20px;
-      line-height: 26px;
-    }
-    .banner{
-
-      height: 400px;
-      width: 100%;
-    }
-    .contentholder{
-      div.holder {
-        &.phase1, &.phase2, &.phase3, &.newMamaExpectations {
-          height: 400px;
-        }
-
-      }
-    }
-  }
 }
