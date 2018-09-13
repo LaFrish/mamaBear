@@ -6,9 +6,7 @@ $backgroundImage4: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
 $backgroundImage5: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default5.jpg);
 $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/familiesAtTek/default6.jpg); */
 /* testing */
-/* @import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"; */
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-/* @import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"; */
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 #mainHolder {
   /*!
@@ -15826,8 +15824,8 @@ $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
 }
 
 #mainHolder .fixedButton {
-  bottom: 10px;
-  right: 100px;
+  bottom: 20px;
+  right: 30px;
   background: #FDB151;
   border: 5px solid #fff;
   border-radius: 50%;
@@ -15849,9 +15847,9 @@ $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
 }
 
 #mainHolder .fixedButton img {
-  margin-left: -5px;
-  margin-top: -5px;
-  width: 80px;
+  margin-left: -10px;
+  margin-top: -10px;
+  width: 73px;
 }
 
 #mainHolder .fixedButton a::before {
@@ -15859,6 +15857,10 @@ $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
   padding: 5px 3px 3px;
   font-size: 40px;
   text-shadow: 0px 2px 2px rgba(150, 150, 150, 0.5);
+}
+
+#mainHolder .fixedButton a:hover {
+  text-decoration: none;
 }
 
 #mainHolder .fixedButton a:hover::before {
@@ -15884,34 +15886,36 @@ $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
   padding-left: 20px;
 }
 
-#mainHolder .banner .imgContainer img.OGlogo {
+#mainHolder .banner .imgContainer .tekLogo {
+  float: left;
+}
+
+#mainHolder .banner .imgContainer .tekLogo img {
+  width: 70%;
+  margin-top: 10px;
+}
+
+#mainHolder .banner .imgContainer .OGlogo {
+  padding-top: 100px;
   margin: 20px 10px 10px 30%;
   width: 40%;
   display: inline-block;
 }
 
-#mainHolder .banner .imgContainer img.babyBear {
+#mainHolder .banner .imgContainer .babyBear {
   display: inline-block;
 }
 
-#mainHolder .banner .imgContainer img.text {
-  display: inline-block;
-  padding: 10px 0px 20px 0px;
-  z-index: 10;
-  margin-left: 40px;
-  margin-top: -115px;
-}
-
-#mainHolder .banner .imgContainer img.bear {
+#mainHolder .banner .imgContainer .bear {
   display: inline-block;
   width: 60%;
   padding: 5px 0px 20px 0px;
-  margin-top: 100px;
-  margin-left: -20px;
+  margin-top: 110px;
+  margin-left: -240px;
   z-index: 1;
 }
 
-#mainHolder .banner .imgContainer img.mamaBear {
+#mainHolder .banner .imgContainer .mamaBear img {
   display: inline-block;
 }
 
@@ -15956,7 +15960,7 @@ $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
 }
 
 #mainHolder #myNavbar ul li.responsibilitiesAndExpectations {
-  width: 50%;
+  width: 40%;
   text-align: center;
 }
 
@@ -16258,10 +16262,15 @@ $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 10px;
 }
 
 #mainHolder .contentholder div.holder:nth-child(5n+0) .row .description h2 {
   text-align: center;
+}
+
+#mainHolder .contentholder div.holder:nth-child(5n+0) .row .description ul {
+  margin-bottom: 10px;
 }
 
 #mainHolder .contentholder div.holder:nth-child(5n+0) .row .description ul li {
@@ -16472,6 +16481,7 @@ $backgroundImage6: url(/sites/TEKLoop/mylifecareer/PublishingImages/Pages/famili
   max-width: 900px;
   margin: 30px auto;
   position: relative;
+  margin-bottom: 30px;
 }
 
 #mainHolder .contentholder div.holder.regionalContacts .row .innerContainer h4 {
@@ -16580,4 +16590,8 @@ svg {
   margin: auto;
   max-height: 100vh;
   max-width: 100%;
+}
+
+.space10 {
+  height: 10px;
 }
